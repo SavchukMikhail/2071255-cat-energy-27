@@ -1,0 +1,17 @@
+.main-header {
+  padding: 10px 20px 17px;
+}
+
+.main-header__icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.main-header__logo-image {
+  display: block;
+  background-image: url("../../img/logo-text.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.logo-image{
+  display: block;
+}
