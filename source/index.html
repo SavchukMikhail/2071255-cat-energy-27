@@ -38,6 +38,7 @@
     <section class="promo">
       <h1 class="promo__title">Функциональное питание для котов</h1>
       <p class="promo__description">Занялся собой? Займись котом!</p>
+      <img class="promo__image" src="./img/cat-energy-chicken.png" width="280" height="270">
       <a class="promo__button primary-button" href="#">Подобрать программу</a>
     </section>
     <section class="program">
@@ -64,61 +65,67 @@
       <h2 class="about-product__title">Как это работает</h3>
         <ul class="about-product__list">
           <li class="about-product__item">
-            <p class="about-product__description">Функциональное питание
+            <p class="about-product__description about-product__description--leaf">Функциональное питание
               содержит только полезные
               питательные вещества.
             </p>
           </li>
           <li class="about-product__item">
-            <p class="about-product__description">Выпускается в виде порошка,
+            <p class="about-product__description about-product__description--water">Выпускается в виде порошка,
               который нужно лишь залить
               кипятком и готово.
             </p>
           </li>
           <li class="about-product__item">
-            <p class="about-product__description">Замените один-два приема
+            <p class="about-product__description about-product__description--eat">Замените один-два приема
               обычной еды на наше
               функциональное питание.
             </p>
           </li>
           <li class="about-product__item">
-            <p class="about-product__description">Уже через месяц наслаждайтесь изменениями
+            <p class="about-product__description about-product__description--clock">Уже через месяц наслаждайтесь изменениями
               к лучшему вашего питомца!
             </p>
           </li>
         </ul>
     </section>
     <section class="result">
+      <div class="result__content-wrapper">
       <div class="result__info-wrapper info-wrapper">
         <h2 class="info-wrapper__title">Живой пример</h3>
           <p class="info-wrapper__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat
             Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему
             спит по 16 часов в день. </p>
-          <dl class="info-wrapper__statistic-list">
-            <dt class="info-wrapper__statistic-term">Снижение веса</dt>
-            <dd class="info-wrapper__statistic-description">5 кг</dd>
-            <dt class="info-wrapper__statistic-term">Затрачено времени</dt>
-            <dd class="info-wrapper__statistic-description">60 дней</dd>
-          </dl>
+            <ul class="info-wrapper__statistic-list">
+              <li class="info-wrapper__statistic-item">
+                <p class="info-wrapper__statistic-description">5 кг</p>
+                <p class="info-wrapper__statistic-term">снижение веса</p>
+              </li>
+              <li class="info-wrapper__statistic-item">
+                <p class="info-wrapper__statistic-description">60 дней</p>
+                <p class="info-wrapper__statistic-term">затрачено времени</p>
+              </li>
+            </ul>
           <p class="info-wrapper__total-cost">Затраты на питание: 15 000 РУБ. </p>
       </div>
       <div class="result__slider">
-        <img class="result__slider-image">
+        <img class="result__slider-image" src="./img/slides.png">
+      </div>
       </div>
     </section>
   </main>
   <footer class="main-footer">
     <section class="main-footer__about-us-info">
-      <h2 class="main-footer__about-us-info-title">Приглашаем к сотрудничеству дилеров!</h3>
+      <h2 class="main-footer__about-us-info-title">Приглашаем к сотрудничеству дилеров!</h2>
         <address class="main-footer__about-us-info-address">ул. Большая
           Конюшенная, д. 19/8
           Санкт-Петербург</address>
     </section>
     <section class="main-footer__map map">
       <div class="map__iframe-wrapper">
-        <iframe
+        <iframe class="map__iframe"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6036253003183!2d30.320858716199638!3d59.938719169054046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1675502355335!5m2!1sru!2sru"
-          width="320" height="362" style="border:0;" allowfullscreen="" loading="lazy"
+           style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
@@ -131,7 +138,7 @@
     <section class="main-footer__social social-block">
     <div class="social-block__logo">
       <a class="social-block__logo-text">
-        <img class="logo-text" src="#" width="101" height="18" alt="Текстовый логотип Кэт энерджи">
+        <img class="logo-text" src="./img/logo-text.svg"  alt="Текстовый логотип Кэт энерджи">
       </a>
     </div>
     <div class="social-block__social social">

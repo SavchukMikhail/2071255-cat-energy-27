@@ -1,0 +1,57 @@
+.about-product {
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.about-product__title {
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+
+}
+.about-product__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.about-product__item{
+  margin-bottom: 20px;
+  min-height: 60px;
+  position: relative;
+}
+.about-product__item:last-child {
+  margin-bottom: 0;
+}
+.about-product__description {
+
+  margin: 0;
+  margin-left: 80px;
+}
+.about-product__description::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #68B738;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+.about-product__description--leaf::before {
+  background-image: url("../../img/icon-leaf.svg");
+}
+.about-product__description--water::before {
+  background-image: url("../../img/icon-water.svg");
+}
+.about-product__description--eat::before {
+  background-image: url("../../img/icon-eat.svg");
+}
+.about-product__description--clock::before {
+  background-image: url("../../img/icon-clock.svg");
+}

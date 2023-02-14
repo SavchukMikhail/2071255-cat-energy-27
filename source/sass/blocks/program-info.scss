@@ -1,0 +1,23 @@
+.program-info{
+  background-color: #f2f2f2;
+  padding: 24px 33px 18px 20px;
+}
+.program-info:not(:last-child){
+  margin-bottom: 20px;
+}
+.program-info__title{
+  margin: 0;
+  margin-left: 70px;
+  margin-bottom: 29px;
+
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.program-info__description{
+  margin: 0;
+  margin-bottom: 38px;
+  max-width: 390px;
+}
